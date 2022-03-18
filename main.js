@@ -1,4 +1,3 @@
-
 /*==================== SAVING INPUT ====================*/
 function save() {
 
@@ -13,6 +12,7 @@ function save() {
     document.getElementById("text").value = "";
 }
 
+// ------------ Firebase > Project settings > CDN > Copy-Paste Config ------------ //
 const config = {
   apiKey: "",
   authDomain: "",
