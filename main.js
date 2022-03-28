@@ -1,15 +1,16 @@
 /*==================== SAVING INPUT ====================*/
 function save() {
+  e.preventDefaut()
 
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let text = document.getElementById("text").value;
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let text = document.getElementById("text").value;
 
-    updatingFile(name, email, text);
+  updatingFile(name, email, text);
 
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("text").value = "";
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("text").value = "";
 }
 
 // ------------ Firebase > Project settings > CDN > Copy-Paste Config ------------ //
